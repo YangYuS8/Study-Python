@@ -41,3 +41,13 @@ print(type(float_num), float_num)
 # 将浮点数转换成整数
 int_num = int(114.514)
 print(type(int_num), int_num)
+
+# 补充：取消print输出换行
+print("Hello, ", end="")
+print("World")
+
+# 补充：制表符 \t
+# 效果等同于在键盘上按下tab键
+# 作用：使多行字符串对齐
+print("Genshin\tImpact")
+print("Star\tRail")
