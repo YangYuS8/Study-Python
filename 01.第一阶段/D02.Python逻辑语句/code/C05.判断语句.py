@@ -23,10 +23,18 @@ print(f"10 >= 10的结果是：{num1 >= num2}")
 print(f"10 <= 10的结果是：{num1 <= num2}")
 
 
-# 2.判断语句if演示
-age = 30
+# 2.判断语句if elif else演示
+# age = 30
+age = 16
 if age >= 18:
     print("我已经成年了")
     print("即将步入大学生活")
+elif age < 12:
+    print("小学生担心过头了")
+else:
+    print("我还未成年")
+    print("救救孩子")
 print("时间过得真快啊")
-# if else语句演示
+
+# 3.判断语句的嵌套
+# 参考C++的判断语句嵌套
